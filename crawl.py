@@ -42,7 +42,7 @@ class Stock:
             return stock_list
         except Exception as ex:
             print("Exception:", ex)
-stock = Stock()  #建立Stock物件
+stock = Stock()  # create stock
 df = stock.scrape()
 
 stock_list = stock.analysis(df)
